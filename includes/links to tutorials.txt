@@ -1,0 +1,2 @@
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1
+https://www.smashingmagazine.com/2011/05/an-introduction-to-css3-keyframe-animations/

@@ -1,0 +1,512 @@
+h2{
+	font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+p{
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+body{
+background:url(../images/background.svg);
+min-width: 1150px;
+
+
+}
+
+h2{
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+.hidden{
+	display:none;
+}
+
+.siteHolder {
+	margin:0 auto;
+	width: 70%;
+	min-width: 900px;
+	justify-content: center;
+    text-align:center;
+
+   
+	
+}
+
+
+.topBottomBar{
+	background-color: black;
+  
+	
+	height: 40px;
+
+}
+
+.topSpace{
+	background-color: #F9B76E;
+}
+
+
+
+.logo{
+	
+	width: 185px;
+	height: 124px;
+    margin:0 auto;
+    margin-top: 40px;
+
+}
+
+.mainNav
+{
+  width:440px;
+  height: 25px;
+  
+  margin:0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+
+}
+
+.mainNav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.mainNav ul li {  
+  font-size: 14px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 25px;
+ 
+}
+
+.mainNav ul li a
+{
+  color: black;
+  padding: 5px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 22px;
+}
+
+.mainNav ul li a:hover {
+  padding: 5px;
+  background-color:#cd6111 ;
+  
+  border-radius: 10px;
+}
+
+.selected
+{
+  padding: 13px 0px 5px 0px;
+  background-color:#cd6111;
+  border-radius: 10px;
+
+}
+
+
+
+.mainContent{
+	
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+	
+}
+
+
+
+.small{
+	
+	width: 261px;
+	height: 258px;
+}
+
+.big{
+	
+	width: 604px;
+	height: 258px;
+}
+
+.BestHeader{
+
+	width: 299px;
+	height: 48px;
+	margin:0 auto;
+    margin-top: 40px;
+
+}
+
+.products{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 40px;
+
+}
+
+.prod{
+	background-color: white;
+	width: 249px;
+	height: 228px;
+	border:5px;
+	border-style: solid;
+}
+
+
+.prod:hover{
+	
+	transform:scale(1.1);
+	transform-origin: center;
+
+
+}
+
+
+
+
+.prodOne{
+	background-color: white;
+	width: 249px;
+	height: 228px;
+	border:5px;
+	border-style: solid;
+	border-top-left-radius: 60px;
+	border-bottom-left-radius: 60px;
+
+}
+.prodOne:hover{
+	
+	transform:scale(1.1);
+	transform-origin: center;
+	animation-name:colorChangeOne;
+	animation-duration: 4s;
+	
+	
+
+}
+
+@keyframes colorChangeOne {
+  from {background-color: white;}
+  to {background-color: #cd6111;}
+}
+
+
+.prodThree{
+	background-color: white;
+	width: 249px;
+	height: 228px;
+	border:5px;
+	border-style: solid;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+
+.prodThree:hover{
+	
+	transform:scale(1.1);
+	transform-origin: center;
+	animation-name:colorChangeThree;
+	animation-duration: 4s;
+	
+
+}
+
+@keyframes colorChangeThree {
+  from {background-color: white;}
+  to {background-color: #679724;}
+}
+
+
+
+
+.promoText{
+	
+	width: 697px;
+	height: 119px;
+	margin:0 auto;
+    margin-top: 40px;
+
+}
+
+.copyRight{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+
+}
+
+.BottomBarTop{
+	margin-top: 40px;
+	background-color: black;	
+	height: 40px;
+}
+
+.FooterNav{
+	background-color: black;
+	width: 697px;
+	height: 40px;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.copyRightText{
+	
+	width: 324px;
+	height: 75px;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+.InfoHolderHome{
+	height: 520px;
+	
+	background-color: #F9B76E;
+	margin-top: 40px;
+	border:5px;
+	border-style: solid;
+	border-radius: 90px;
+}
+
+
+
+
+/*page2 beers*/
+
+
+
+.Beers{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 40px;
+
+}
+
+.beerProd{
+	background-color: #ffffff;
+    width:367px;
+    height: 335px;
+    border:5px;
+	border-style: solid;
+	border-radius: 90px;
+
+
+    
+
+}
+
+.beerProd:hover{
+	
+	transform:scale(1.02);
+	transform-origin: center;
+
+
+}
+
+/*page2,page3*/
+
+.InfoHolder{
+	height: 1700px;
+	
+	background-color: #F9B76E;
+	margin-top: 40px;
+	border:5px;
+	border-style: solid;
+	border-radius: 90px;
+	
+
+}
+
+.aboutBeerImg{
+	margin-top: 40px;
+}
+
+#aboutBeer p{
+	width:700px;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+#Collaboration{
+	opacity:50%;
+	width:481px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.InfoHolderBeers{
+	height: 1900px;
+	
+	background-color: #F9B76E;
+	margin-top: 40px;
+	border:5px;
+	border-style: solid;
+	border-radius: 90px;
+}
+
+
+/*contact*/
+#comments{
+	background-color:white ;
+	padding:20px 20px 20px 20px ;
+	color:white;
+	font-family: 'Alatsi', sans-serif;
+	font-size:15px;
+	margin-bottom: 100px;
+
+}
+
+
+
+#mainContact {
+ 
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: #ab5e76;
+  color:white;
+  font-family: 'Alatsi', sans-serif;
+  font-size:17px
+
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: #2073a8;
+  background-color: #ddeff7;
+  margin-bottom: 50px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 510px;
+  border-right: solid 1px #CCC;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+
+#contactText {
+  font-size: 21px;
+  margin-bottom: 30px;
+  width: 340px;
+}
+
+#contactForm {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: white;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+ 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  font-size: 14px;
+  border: 1px solid #003471;
+}
+
+.InfoHolderContact{
+	height: 800px;
+	
+	background-color: #F9B76E;
+	margin-top: 40px;
+	border:5px;
+	border-style: solid;
+	border-radius: 90px;
+	
+
+}
+
+#ContactHolder {
+ 
+   
+  display: flex;
+  flex-direction: row;
+  opacity:50;
+  
+
+  
+
+}
+
+.imgLogoCon{
+
+	width:200px;
+	margin:70px;
+	margin-top:140px;
+}
+
+/*Soaps*/
+.InfoHolderSoaps{
+	height: 900px;
+	
+	background-color: #F9B76E;
+	margin-top: 40px;
+	border:5px;
+	border-style: solid;
+	border-radius: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
